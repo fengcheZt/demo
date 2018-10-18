@@ -69,6 +69,31 @@
 		       <artifactId>nekohtml</artifactId>  
 		       <version>1.9.22</version>  
 		</dependency>
+		<!-- 管理前端js,css包 -->
+		<dependency>  
+		    <groupId>org.webjars</groupId>  
+		    <artifactId>bootstrap</artifactId>  
+		    <version>3.3.7-1</version>  
+		</dependency>  
+		<dependency>  
+		    <groupId>org.webjars</groupId>  
+		    <artifactId>jquery</artifactId>  
+		    <version>3.1.1</version>  
+		</dependency> 
+		<!-- 隐藏js，css包版本号 -->
+		<dependency>  
+		    <groupId>org.webjars</groupId>  
+		    <artifactId>webjars-locator</artifactId>  
+		    <version>0.31</version>  
+		</dependency> 
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>  
+		    <artifactId>spring-boot-starter-data-redis</artifactId>  
+		</dependency>
+		<dependency>
+		    <groupId>org.springframework.session</groupId>
+		    <artifactId>spring-session-data-redis</artifactId>
+		</dependency>
 	</dependencies>
 
 	<build>
